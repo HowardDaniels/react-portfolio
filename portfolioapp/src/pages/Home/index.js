@@ -9,7 +9,7 @@ function Home(){
                 <div class="para-head">
                     <strong>About Me</strong>
                 </div>
-                {/* <hr> */}
+                <hr />
                 <div class="text-wrap bd-highlight">
                     <p class="text-center">
                             <img src="assets/images/linkedinprofile.png" id="profile" />
