@@ -1,11 +1,12 @@
 import React from "react";
 import "./style.css";
+import corkBoard from "../../../public/assets/images/corkBoard";
 
 function Portfolio(){
     return(
 <div class="row" id="main-background">
 
-    <div id="bio-para-box">
+    <div id="bio-para-box" style={{backgroundImage:corkBoard}}>
       <div class="para-head"><strong>Portfolio</strong></div>
       <hr />
       <div class="text-wrap bd-highlight">
