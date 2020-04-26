@@ -1,6 +1,16 @@
 import React from "react";
 import "./style.css";
-import corkBoard from "../../../public/assets/images/corkBoard";
+import corkBoard from "./images/cork-board.png";
+import passwordGeneratorImage from "./images/password-generator-snip.png";
+import codeQuizImage from "./images/code-quiz-snip.png";
+import dayPlannerImage from "./images/day-planner-snip.png";
+import weatherDashboardImage from "./images/weather-dashboard-snip.png";
+import dailyMeshImage from "./images/dailymesh.jpg";
+import developerProfileGeneratorImage from "./images/developer-profile.png";
+import employeeSummaryImage from "./images/employee-summary-snip.png";
+import noteTakerImage from "./images/note-taker-snip.png";
+import employeeTrackerImage from "./images/employee-tracker-snip.png";
+import burgerLoggerImage from "./images/burger-logger-snip.png";
 
 function Portfolio(){
     return(
@@ -14,31 +24,31 @@ function Portfolio(){
 
         <div class="row" id="picture-row-1">
 
-          <div class="col-md-2" id="project-box-1">
+          <div class="col-md-2" id="project-box-1" style={{backgroundImage: `url(${passwordGeneratorImage})`}}>
             <div class="name-banner">
               <a href="https://howarddaniels.github.io/password-generator/index.html">Project 1: Password Generator</a>
             </div>
           </div>
 
-          <div class="col-md-2" id="project-box-2">
+          <div class="col-md-2" id="project-box-2" style={{backgroundImage: `url(${codeQuizImage})`}}>
             <div class="name-banner">
               <a href="https://howarddaniels.github.io/code-quiz/index.html">Project 2: Code Quiz</a>
             </div>
           </div>
 
-          <div class="col-md-2" id="project-box-3">
+          <div class="col-md-2" id="project-box-3" style={{backgroundImage: `url(${dayPlannerImage})`}}>
             <div class="name-banner">
               <a href="https://howarddaniels.github.io/day-planner/index.html">Project 3: Day Planner</a>
             </div>
           </div>
 
-          <div class="col-md-2" id="project-box-4">
+          <div class="col-md-2" id="project-box-4" style={{backgroundImage: `url(${weatherDashboardImage})`}}>
             <div class="name-banner">
               <a href="https://howarddaniels.github.io/weather-dashboard/index.html">Project 4: Weather Dashboard</a>
             </div>
           </div>
 
-          <div class="col-md-2" id="project-box-5">
+          <div class="col-md-2" id="project-box-5" style={{backgroundImage: `url(${dailyMeshImage})`}}>
             <div class="name-banner">
               <a href="https://howarddaniels.github.io/the-daily-mesh/index.html">Project 5: The Daily Mesh</a>
             </div>
@@ -46,31 +56,31 @@ function Portfolio(){
         </div>
         <div class="row" id="picture-row-2">
 
-          <div class="col-md-2" id="project-box-6">
+          <div class="col-md-2" id="project-box-6" style={{backgroundImage: `url(${developerProfileGeneratorImage})`}}>
             <div class="name-banner">
               <a href="https://github.com/HowardDaniels/developer-profile-generator">Project 6: Developer Profile Generator</a>
             </div>
           </div>
 
-          <div class="col-md-2" id="project-box-7">
+          <div class="col-md-2" id="project-box-7" style={{backgroundImage: `url(${employeeSummaryImage})`}}>
             <div class="name-banner">
               <a href="https://github.com/HowardDaniels/employee-summary">Project 7: Employee Summary</a>
             </div>
           </div>
 
-          <div class="col-md-2" id="project-box-8">
+          <div class="col-md-2" id="project-box-8" style={{backgroundImage: `url(${noteTakerImage})`}}>
             <div class="name-banner">
               <a href="https://github.com/HowardDaniels/note-taker">Project 8: Note Taker</a>
             </div>
           </div>
 
-          <div class="col-md-2" id="project-box-9">
+          <div class="col-md-2" id="project-box-9" style={{backgroundImage: `url(${employeeTrackerImage})`}}>
             <div class="name-banner">
               <a href="https://github.com/HowardDaniels/employee-tracker">Project 9: Employee Tracker</a>
             </div>
           </div>
 
-          <div class="col-md-2" id="project-box-10">
+          <div class="col-md-2" id="project-box-10" style={{backgroundImage: `url(${burgerLoggerImage})`}}>
             <div class="name-banner">
               <a href=" https://dashboard.heroku.com/apps/tranquil-dusk-35562">Project 10: Burger Logger</a>
             </div>
