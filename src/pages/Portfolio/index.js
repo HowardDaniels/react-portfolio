@@ -12,7 +12,7 @@ import noteTakerImage from "./images/note-taker-snip.png";
 import employeeTrackerImage from "./images/employee-tracker-snip.png";
 import burgerLoggerImage from "./images/burger-logger-snip.png";
 import reverseEngineeringCodeSnip from "./images/reverse-engineering-code-snip.png";
-
+//Comment
 function Portfolio(){
     return(
 <div class="row" id="main-background">
