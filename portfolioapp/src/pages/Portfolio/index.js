@@ -11,6 +11,7 @@ import employeeSummaryImage from "./images/employee-summary-snip.png";
 import noteTakerImage from "./images/note-taker-snip.png";
 import employeeTrackerImage from "./images/employee-tracker-snip.png";
 import burgerLoggerImage from "./images/burger-logger-snip.png";
+import reverseEngineeringCodeSnip from "./images/reverse-engineering-code-snip.png";
 
 function Portfolio(){
     return(
@@ -90,7 +91,7 @@ function Portfolio(){
 
         <div class="row" id="picture-row-3">
 
-          <div class="col-md-2" id="project-box-11">
+          <div class="col-md-2" id="project-box-11" style={{backgroundImage: `url(${reverseEngineeringCodeSnip})`}}>
             <div class="name-banner">
               <a href="https://github.com/HowardDaniels/reverse-engineering-code">Project 11: Reverse Engineering Code</a>
             </div>
