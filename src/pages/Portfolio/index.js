@@ -11,7 +11,9 @@ import employeeSummaryImage from "./images/employee-summary-snip.png";
 import noteTakerImage from "./images/note-taker-snip.png";
 import employeeTrackerImage from "./images/employee-tracker-snip.png";
 import burgerLoggerImage from "./images/burger-logger-snip.png";
-import reverseEngineeringCodeSnip from "./images/reverse-engineering-code-snip.png";
+import reverseEngineeringCodeImage from "./images/reverse-engineering-code-snip.png";
+import movieMagicImage from "./images/movie-magic-snip.png";
+
 //Comment
 function Portfolio(){
     return(
@@ -91,13 +93,13 @@ function Portfolio(){
 
         <div class="row" id="picture-row-3">
 
-          <div class="col-md-2" id="project-box-11" style={{backgroundImage: `url(${reverseEngineeringCodeSnip})`}}>
+          <div class="col-md-2" id="project-box-11" style={{backgroundImage: `url(${reverseEngineeringCodeImage})`}}>
             <div class="name-banner">
               <a href="https://github.com/HowardDaniels/reverse-engineering-code">Project 11: Reverse Engineering Code</a>
             </div>
           </div>
 
-          <div class="col-md-2" id="project-box-12">
+          <div class="col-md-2" id="project-box-12" style={{backgroundImage: `url(${movieMagicImage})`}}>
             <div class="name-banner">
               <a href="https://infinite-inlet-20359.herokuapp.com/">Project 12: Movie Magic</a>
             </div>
