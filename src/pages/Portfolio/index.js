@@ -108,7 +108,7 @@ function Portfolio(){
             </div>
           </div>
 
-          <div class="col-md-2" id="project-box-13"> style={{backgroundImage: `url(${fitnessTrackerImage})`}}
+          <div class="col-md-2" id="project-box-13" style={{backgroundImage: `url(${fitnessTrackerImage})`}}>
             <div class="name-banner">
               <a href="https://github.com/HowardDaniels/fitness-tracker">Project 13: Fitness Tracker</a>
             </div>
