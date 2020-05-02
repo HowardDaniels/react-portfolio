@@ -14,7 +14,7 @@ import burgerLoggerImage from "./images/burger-logger-snip.png";
 import reverseEngineeringCodeImage from "./images/reverse-engineering-code-snip.png";
 import movieMagicImage from "./images/movie-magic-snip.png";
 import fitnessTrackerImage from "./images/fitness-tracker-snip.png";
-import progressiveBudgetImage from "./images/progressive-budget-snip.png";
+// import progressiveBudgetImage from "./images/progressive-budget-snip.png";
 import userDirectoryImage from "./images/user-directory-snip.png";
 
 //Comment
@@ -114,7 +114,8 @@ function Portfolio(){
             </div>
           </div>
 
-          <div class="col-md-2" id="project-box-14" style={{backgroundImage: `url(${progressiveBudgetImage})`}}>
+          {/* <div class="col-md-2" id="project-box-14" style={{backgroundImage: `url(${progressiveBudgetImage})`}}> */}
+          <div class="col-md-2" id="project-box-14">
             <div class="name-banner">
               <a href="https://github.com/HowardDaniels/progressive-budget">Project 14: Progressive Budget</a>
             </div>
