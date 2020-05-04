@@ -1,6 +1,6 @@
 This is my React developer portfolio. Info about the React app can be found below.
 
-*
+
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
